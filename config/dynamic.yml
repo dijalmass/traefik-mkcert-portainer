@@ -1,0 +1,10 @@
+tls:
+  certificates:
+    - certFile: /etc/certs/_wildcard.localhost.pem  # Certificado
+      keyFile: /etc/certs/_wildcard.localhost-key.pem    # Chave privada
+
+  stores:
+    default:
+      defaultCertificate:
+        certFile: /etc/certs/_wildcard.localhost.pem  # Certificado padrão
+        keyFile: /etc/certs/_wildcard.localhost-key.pem    # Chave padrão
